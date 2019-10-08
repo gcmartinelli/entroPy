@@ -1,5 +1,5 @@
 ## Entropy
-Python binary file entropy visualizer.
+Binary file entropy visualizer written in Python.
 
 Inspired by [Red Balloon](https://youtu.be/zvP2FEfOSsk?t=619)
 
