@@ -42,7 +42,7 @@ if __name__ == '__main__':
     try:
         print('------- RUNNING --------')
         with open(sys.argv[1], 'rb') as f:
-            if len(sys.argv) > 1:
+            if len(sys.argv) > 2:
                 filename = sys.argv[1]
                 block_size = int(sys.argv[2])
             else:
