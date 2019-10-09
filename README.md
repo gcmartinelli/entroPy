@@ -1,6 +1,10 @@
 ## Entropy
 Binary file entropy visualizer written in Python.
 
+![17MB binary, 64 blocksize](imgs/ex1.png)
+
+*17mb binary, blocksize of 64*
+
 Inspired by [Red Balloon](https://youtu.be/zvP2FEfOSsk?t=619)
 
 ### Dependencies
@@ -16,12 +20,11 @@ Run `python entropy.py filename [blocksize:optional]`
 
 Darker areas have lower entropy.
 
-### Example
+### Other Examples
 ![17MB binary, 16 blocksize](imgs/ex3.png)
-- 17mb binary, blocksize of 16
 
-![17MB binary, 64 blocksize](imgs/ex1.png)
-- 17mb binary, blocksize of 64
+*17mb binary, blocksize of 16*
 
 ![17MB binary, 256 blocksize](imgs/ex2.png)
-- 17mb binary, blocksize of 256
+
+*17mb binary, blocksize of 256*
