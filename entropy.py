@@ -7,10 +7,9 @@ import numpy as np
 
 def H(data):
     ''' Calculate the entropy of a given data block '''
-    data = str(data)
     entropy = 0
     for x in range(256):
-        p_x = data.count(chr(x))/len(data)
+        p_x = data.count((x).to_bytes(1, 'little'))/len(data)
         if p_x > 0:
             entropy += -p_x*math.log(p_x, 2)
     return entropy
