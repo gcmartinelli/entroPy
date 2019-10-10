@@ -1,7 +1,7 @@
 ## Entropy
 Binary file entropy visualizer written in Python.
 
-![17MB binary, 64 blocksize](imgs/ex1.png)
+![17MB binary, 64 blocksize](imgs/ex2.png)
 
 *17mb binary, blocksize of 64*
 
@@ -25,6 +25,6 @@ Darker areas have lower entropy.
 
 *17mb binary, blocksize of 16*
 
-![17MB binary, 256 blocksize](imgs/ex2.png)
+![17MB binary, 256 blocksize](imgs/ex1.png)
 
 *17mb binary, blocksize of 256*

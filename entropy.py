@@ -27,9 +27,9 @@ def graph(matrix):
     arr = np.array(matrix)
     im = Image.fromarray(arr * 255/8).convert('L')
     im.save(f'{filename}_entropy.png')
-    print('-------- FINISHED ---------')
     print(f'Generated {len(matrix)}:{len(matrix[0])} image')
     print(f'Imaged saved as {filename}_entropy.png')
+    print('-------- FINISHED ---------')
     return
 
 if __name__ == '__main__':
